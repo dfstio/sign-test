@@ -1,5 +1,5 @@
 import { PublicKey, Mina, Field, fetchAccount, UInt64 } from 'o1js';
-import { SignTestContract } from '../../contract/index.js';
+import { SignTestContract } from '../../contract/contract';
 
 export async function contract(value: number): Promise<string> {
   console.log('Contract', { value });

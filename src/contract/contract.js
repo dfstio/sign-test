@@ -19,4 +19,4 @@ __decorate([
     __metadata("design:paramtypes", [Field]),
     __metadata("design:returntype", Promise)
 ], SignTestContract.prototype, "setValue", null);
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=contract.js.map
