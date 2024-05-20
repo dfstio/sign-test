@@ -230,9 +230,11 @@ export const UserProfileInformationPage = () => {
           <Form
             name="user-profile-birhday-form"
             layout="vertical"
-            initialValues={{
-              dob: dayjs('1996/04/27'),
-            }}
+            initialValues={
+              {
+                /*dob: dayjs('1996/04/27'),*/
+              }
+            }
             onFinish={onFinish}
             onFinishFailed={onFinishFailed}
             autoComplete="on"
